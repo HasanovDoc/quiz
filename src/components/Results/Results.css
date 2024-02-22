@@ -1,0 +1,67 @@
+.AnswersContainer {
+    margin-top: 80px;
+    min-width: 45%;
+    max-width: 90%;
+    height: max-content;
+    /* background-color: rgba(0, 0, 0, 0.171); */
+    background-color: #000000;
+    padding: 8px;
+}
+
+.AnswersHeader {}
+
+.AnswersTableContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.AnswersTable {
+    border-collapse: collapse;
+    letter-spacing: 0.6px;
+}
+
+.AnswersTable tbody {
+    width: 100%;
+    color: #BCEDF8B2;
+    white-space: nowrap;
+    box-shadow: 0 0 0 1px #BCEDF81A;
+    border-radius: 8px;
+}
+
+.AnswersTable tbody tr {
+    height: 60px;
+    border-top: 0.5px solid #BCEDF81A;
+}
+
+.AnswersTable tbody tr:first-child {
+    border: 0;
+}
+
+.AnswersTable tbody td {
+    margin-right: 0 auto;
+    padding: 0 20px;
+}
+
+.AnswersTable th:first-child {
+    padding-right: 20px;
+}
+
+.AnswersTbody {}
+
+.AnswersItemCorrect {
+    /* background-color: #4AD134; */
+}
+
+.AnswersItemUnCorrect {
+    /* background-color: #FF6F31; */
+}
+
+.AnswersButton {
+    width: 100px;
+    margin: 0;
+}
+
+.ResultsScore {
+    height: 50px;
+}

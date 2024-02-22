@@ -1,0 +1,77 @@
+.MainContainer {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 100%;
+    min-height: 1000px;
+    max-height: 100%;
+    background-color: #111115;
+    display: flex;
+    justify-content: center;
+}
+
+.QuizContainer {
+    margin-top: 80px;
+    border: 1px solid #FFC931E5;
+    border-radius: 10px;
+    width: 45%;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.QuizQuestion {
+    width: auto !important;
+    padding: 0px 10px;
+}
+
+.QuizQuestion h5 {
+    background-color: #111115;
+    border-radius: 4px;
+}
+
+.QuestionHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.QuizAnswer {}
+
+.AnswerInput {
+    width: 200px;
+    height: 25px;
+    border-radius: 1px;
+    border: 1px solid #BCEDF833;
+    background-color: #BCEDF833;
+    color: #BCEDF899;
+}
+
+.AnswerInput::placeholder {
+    color: #BCEDF866;
+}
+
+.AnswerInput:focus {
+    outline: solid #BCEDF866;
+}
+
+.QuizButtonSendContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.QuizButton {
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    color: #FFC931B2;
+    background-color: #FFC9311A;
+    border: 1px solid #FFC931B2;
+    border-radius: 1px;
+}
+
+.QuizButton:active {
+    transition: 0.01s ease;
+    background-color: #ffc83132;
+    outline: solid #ffc831d4;
+}
