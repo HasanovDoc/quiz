@@ -1,8 +1,27 @@
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 .HeaderContainer {
+    width: 100%;
+    height: 80px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 2px;
+}
+
+.HeaderContainer:hover {
+    /* transform: scale(1.01); */
+    /* transform: translateY(-50px); */
+}
+
+.HeaderWrapper {
     width: 100%;
     height: 80px;
     background-color: black;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    margin-bottom: 2px;
 }
+
+.LoveTips {}
